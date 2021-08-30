@@ -2,8 +2,18 @@
 ![](pyAroma_rm.png)
 
 ## Statement of Need
-py.**Aroma** is a Python program for aromaticity analyses, including ICSS, NICS, HOMA analyses tool. Due to the file size limitation of GitHub, the executable 
+py.**Aroma** is a Python program for aromaticity analyses, including ICSS, NICS, HOMA analyses tool. Users can easily create input files for 
+NICS, 2D-ICSS and 3D-ICSS calculations and process output files of HOMA and ICSS calculations.
+
+### About Executable Files
+Due to the file size limitation of GitHub, the executable 
 files could not be saved in this repo. Please download from [here](https://drive.google.com/drive/folders/1-EtvkVDkh5snZns4pKYs2QX1ddMZc1pt?usp=sharing).
+
+## Usage
+Please refer to the user manual for more information.
+
+## Dependencies
+py.**Aroma** relies on the Python library *matplotlib* and *numpy*.
 
 ## Update History
 ### v1.0, 2021-08-29
