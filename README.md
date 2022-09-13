@@ -23,7 +23,7 @@ py.**Aroma** relies on the Python library *matplotlib* and *numpy*.
 ### v2.0, 2022-07-29
 1. BIG UPDATE: Now GUI is available for py.Aroma.
 2. Removed HOMA calculation function.
-3. Improved sufficiency of 2D-NICS poltting.
+3. Improved sufficiency of 2D-NICS ptting.
 
 ### v1.0, 2021-08-29
 1. Improved stability.
