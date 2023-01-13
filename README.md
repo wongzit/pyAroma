@@ -17,11 +17,14 @@ py.**Aroma** relies on the Python library *matplotlib* and *numpy*.
 
 ## Update History
 
+### v2.1.0, 2023-01-14
+1. Bug fix.
+
 ### v2.0.1, 2022-08-04
-1. Fixed the error: scientific notation of coordinates in input files
+1. Fixed the error: scientific notation of coordinates in input files.
 
 ### v2.0, 2022-07-29
-1. BIG UPDATE: Now GUI is available for py.Aroma.
+1. BIG UPDATE: Now GUI is available for py.**Aroma**.
 2. Removed HOMA calculation function.
 3. Improved sufficiency of 2D-NICS ptting.
 
