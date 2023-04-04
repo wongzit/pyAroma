@@ -1,5 +1,5 @@
 # py.Aroma 3
-![](pyAroma_rm.png)
+![](pyAroma_banner.png)
 
 ## Statement of Need
 py.**Aroma** is a multi-functional Python program for aromaticity analyses.
