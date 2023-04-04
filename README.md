@@ -1,21 +1,21 @@
-# py.Aroma
+# py.Aroma 3
 ![](pyAroma_rm.png)
 
 ## Statement of Need
-py.**Aroma** is a Python program for aromaticity analyses. Users can easily create input files for 
-NICS, 2D-NICS and 3D-NICS calculations and process output files of NICS calculations.
+py.**Aroma** is a multi-functional Python program for aromaticity analyses.
 
-### About Executable Files
-Due to the file size limitation of GitHub, the executable 
-files could not be saved in this repo. Please download from [here](https://drive.google.com/drive/folders/1VUNeXw-72reof1FwYVOOXPSNdthFskm9?usp=sharing).
-
-## Usage
 Please refer to the [homepage](https://wongzit.github.io/program/pyaroma/) for more information.
 
-## Dependencies
-py.**Aroma** relies on the Python library *matplotlib* and *numpy*.
-
 ## Update History
+
+### v3.0.0, 2023-04-02
+0. Fully re-wrote code.
+1. Added BLA, HOMA and POAV functions.
+2. Combined [*CSIgen*](https://github.com/wongzit/CSIgen) module.
+3. Improved GUI by PyQt6.
+4. Added more function for 2D and 3D NICS analyses.
+5. Added 1D NICS scan function.
+6. In 3D NICS module, user can also access 2D NICS module.
 
 ### v2.1.0, 2023-01-14
 1. Bug fix.
