@@ -6,6 +6,10 @@ py.**Aroma** is a multi-functional Python program for aromaticity analyses.
 
 Please refer to the [homepage](https://wongzit.github.io/program/pyaroma/) for more information, including user manual.
 
+## Running with Source Code
+
+Please run **pyAroma_main.py** file in **src** folder with Python 3.
+
 ## Update History
 
 ### v3.0.0, 2023-04-02
