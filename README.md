@@ -4,7 +4,7 @@
 ## Statement of Need
 py.**Aroma** is a multi-functional Python program for aromaticity analyses.
 
-Please refer to the [homepage](https://wongzit.github.io/program/pyaroma/) for more information.
+Please refer to the [homepage](https://wongzit.github.io/program/pyaroma/) for more information, including user manual.
 
 ## Update History
 
