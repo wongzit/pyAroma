@@ -1,10 +1,11 @@
 # py.Aroma 3
 ![](pyAroma_banner.png)
 
-## Statement of Need
+## Statement
 py.**Aroma** is a multi-functional Python program for aromaticity analyses.
+py.**Aroma** is free of charge for acdemic user, for other license term, please contact the developer.
 
-Please refer to the [homepage](https://wongzit.github.io/program/pyaroma/) for more information, including user manual.
+Please refer to the [homepage](https://wongzit.github.io/program/pyaroma/) for more information.
 
 ## Running with Source Code
 
@@ -52,3 +53,11 @@ HOMA calculation module has been added into main program. Please refer to [*HOMA
 
 ### v0.3 Pre-release, 2021-08-28
 First release of *PyAroma*. The user manual is under preparing, for now please refer to the user manual of [*ICSSgen*](https://github.com/wongzit/ICSSgen), [*ICSScsv*](https://github.com/wongzit/ICSScsv), [*ICSSgen3D*](https://github.com/wongzit/ICSSgen3D), [*ICSScub3D*](https://github.com/wongzit/ICSScub3D) and [*NICSgen*](https://github.com/wongzit/NICSgen).
+
+## Citation
+
+If **py.Aroma 3** if ultilized in your work, or the code is implied in your own code, please cite following contents:
+
+- Yuki Miyazawa, Zhe Wang, Misaki Matsumoto, Sayaka Hatano, Ivana Antol, Eiichi Kayahara, Shigeru Yamago, Manabu Abe, *Journal of the American Chemical Society*, **2021**, *143*(*19*), 7426-7439.
+
+- Zhe Wang, **py.Aroma 3**, https://wongzit.github.io/program/pyaroma (accessed *data*, *month*, *year*).
