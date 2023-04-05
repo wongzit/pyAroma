@@ -8,7 +8,8 @@ Please refer to the [homepage](https://wongzit.github.io/program/pyaroma/) for m
 
 ## Running with Source Code
 
-Please run `pyAroma_main.py` file in `/src` folder with Python 3 IDE.
+Please run `pyAroma_main.py` file in `/src` folder with Python 3 IDE. Other files including `config.ini` and `assets` folder should 
+be put at same dictionary as `pyAroma_main.py` file.
 
 ## Download
 
