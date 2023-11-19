@@ -1,6 +1,8 @@
 # A Module for py.Aroma 3
 # Create NICS input files
 
+import numpy as np
+
 def nics2Dxy(x_min, x_max, y_min, y_max, height, grid):
 	bq_list = []
 
@@ -56,6 +58,17 @@ def nics3D(x_min, x_max, y_min, y_max, z_min, z_max, grid):
 
 	return bq_list
 
+# projects a point on a plane
+def projectOnPlane(a,b,c,d,x,y,z):
+    #based on the Matlab function "projection" written by Neo Jing Ci, 11/7/18
+    A = np.array([[1, 0, 0, -a], [0, 1, 0, -b], [0, 0, 1, -c], [a, b, c, 0]])
+    B = [[x],[y],[z],[d]]
+    C = np.linalg.lstsq(A, B, rcond=None)[0]
+    px = C[0][0]
+    py = C[1][0]
+    pz = C[2][0]
+    return [px, py, pz]
+
 # Calculate coordinates of Bq atoms.
 def calCoor(atmcList, heigh, xyzCoors):
 	aveX = 0.0
@@ -77,6 +90,33 @@ def calCoor(atmcList, heigh, xyzCoors):
 		userX.append(xyzCoors[atm][1])
 		userY.append(xyzCoors[atm][2])
 		userZ.append(xyzCoors[atm][3])
+
+    	#!!!!!!!!!!!!!! Additional code: calculate plane and project points on plane
+	# Since the position of the NICS(n) points are calculated, in the original code, via the cross product of two vectors (defined by three atoms),
+	# the result is unreliable when rings are not perfectly planar.
+	# For instance, attempting the calculation of NICS(1) on boat cyclohexane leads to different results depending
+	# On wether the selected atoms are "1,2,3,4,5,6" or "2,3,4,5,6,1". The same problem is seen in distorted aromatic systems, i.e. nonplanar nanoribbons.
+	# The additional code finds the plane that best fits the selected atoms, and then projects the selected atoms on the plane.
+	# Vector operations and calculation of the normal vector are done as before, but on projected positions instead of atomic positions, hence leading to the same result as before
+	# in the case of planar rings, and to a univocal result in the case of nonplanar rings
+	
+    	a1 = np.column_stack([userX, userY, np.ones(len(atmcList))])
+	a2 = np.column_stack([userZ])
+	a3 = np.linalg.lstsq(a1, a2, rcond=None)[0] # Finds the plane that best fits the selected atoms
+
+	# coefficients for the equation of the plane: z=c1*x+c2*y+c3
+	c1 = a3[0][0]
+	c2 = a3[1][0]
+	c3 = a3[2][0]
+	
+	#overwrites the atom coordinates stored in userX, userY, userZ with the coordinates of the atoms projected on the plane
+	for ii in range(len(userX)):
+	        projected_xyz = projectOnPlane(c1, c2, -1, -c3, userX[ii], userY[ii], userZ[ii])
+	        userX[ii] = projected_xyz[0]
+	        userY[ii] = projected_xyz[1]
+	        userZ[ii] = projected_xyz[2]
+	
+	#!!!!!!!!!!!!!! End of additional code
 
 	if float(heigh) == 0.0:
 		return aveX, aveY, aveZ
