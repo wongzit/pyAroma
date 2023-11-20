@@ -28,7 +28,7 @@ Version 3.0.0, Built on April 2nd, 2023.
 ### v3.1.0, 2023-11-19
 *Thanks to [NotVinz](https://github.com/NotVinz) for contributions.*
 1. Now the program can recognize chordless monocycles.
-2. Improved reliability for adding ghost atoms for twisted cycles.
+2. Improved reliability for adding ghost atoms for distorted cycles.
 
 ### v3.0.0, 2023-04-02
 0. Fully re-wrote code.
