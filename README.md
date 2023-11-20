@@ -14,9 +14,12 @@ be put at same dictionary as `pyAroma_main.py` file.
 
 ## Download
 
-**py.Aroma 3** Version: 3.0.0, Built on April 2nd, 2023.
+**py.Aroma 3** Version: 3.1.0, Built on Nov. 19th, 2023.
 
 - [macOS](https://drive.google.com/file/d/1-ugu20IhhebmjvPcV3EVS1pzLrYVGbal/view?usp=share_link)
+
+**py.Aroma 3** Version: 3.0.0, Built on April 2nd, 2023.
+
 - [Windows](https://drive.google.com/file/d/1QUojgzprZRvWLBtgcQ55pXqR8uX4vqRu/view?usp=share_link)
 - [Linux](https://drive.google.com/drive/folders/12ukrOltMulc7Kz6ZV9--I7g9PDn8UeFL?usp=share_link)
 
