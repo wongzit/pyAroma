@@ -22,6 +22,11 @@ be put at same dictionary as `pyAroma_main.py` file.
 
 ## Update History
 
+### v3.1.0, 2023-11-20
+*Thanks to [NotVinz](https://github.com/NotVinz) for contributions.*
+1. Now the program can recognize chordless monocycles.
+2. Improved reliability for adding ghost atoms for twisted cycles.
+
 ### v3.0.0, 2023-04-02
 0. Fully re-wrote code.
 1. Added BLA, HOMA and POAV functions.
