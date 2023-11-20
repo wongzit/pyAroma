@@ -24,7 +24,8 @@ def get_connectivity(geom_list):
 
 def find_monocycle(_bonded_atoms):
 	nx_graph = nx.Graph(_bonded_atoms)
-	monocycle_in_molecule = nx.cycle_basis(nx_graph)
+	#monocycle_in_molecule = nx.cycle_basis(nx_graph)
+	monocycle_in_molecule = nx.chordless_cycles(nx_graph)
 	return monocycle_in_molecule
 
 def find_max_min(geom_list):
