@@ -70,8 +70,8 @@ First release of *PyAroma*. The user manual is under preparing, for now please r
 
 ## Citation
 
-If **py.Aroma 3** if ultilized in your work, or the code is implied in your own code, please consider citing following contents:
+If **py.Aroma** if ultilized in your work, or the code is implied in your own code, please consider citing following contents:
 
 - Yuki Miyazawa, Zhe Wang, Misaki Matsumoto, Sayaka Hatano, Ivana Antol, Eiichi Kayahara, Shigeru Yamago, Manabu Abe, *Journal of the American Chemical Society*, **2021**, *143*(*19*), 7426-7439.
 
-- Zhe Wang, **py.Aroma 3**, https://wongzit.github.io/program/pyaroma (accessed *data*, *month*, *year*).
+- Zhe Wang, **py.Aroma 4**, https://wongzit.github.io/program/pyaroma (accessed *data*, *month*, *year*).
