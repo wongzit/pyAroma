@@ -16,6 +16,7 @@ be put at same dictionary as `pyAroma_main.py` file.
 
 Version 4.0.0, Build 3116.
 - [macOS](https://drive.google.com/file/d/1dysLAgXqhUs0A0XIZUC9nrdccMttKVvq/view?usp=share_link)
+- [Windows](https://drive.google.com/file/d/1kwrasGuiMpLjxnPaeUTuhIcRg8mvXYVp/view?usp=share_link)
 
 Version 3.1.0, Build 3100.
 - [macOS](https://drive.google.com/file/d/1cPFGJ_h85831Wuth6nwK0UUjat5VPlcx/view?usp=sharing)
