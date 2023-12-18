@@ -1,0 +1,67 @@
+HEADER
+REMARK Spartan Student v8 exported M0001
+HETATM    1  H   UNK  0001      -1.479   0.028  -0.643
+HETATM    2  C   UNK  0001      -0.886   0.208   0.251
+HETATM    3  C   UNK  0001       0.585   0.709   2.562
+HETATM    4  C   UNK  0001       0.009  -0.773   0.711
+HETATM    5  C   UNK  0001      -1.043   1.417   0.933
+HETATM    6  C   UNK  0001      -0.307   1.667   2.088
+HETATM    7  C   UNK  0001       0.741  -0.500   1.879
+HETATM    8  H   UNK  0001      -1.744   2.161   0.562
+HETATM    9  H   UNK  0001      -0.430   2.608   2.619
+HETATM   10  H   UNK  0001       1.452  -1.231   2.260
+HETATM   11  H   UNK  0001       1.163   0.902   3.462
+HETATM   12  C   UNK  0001       0.174  -2.047  -0.008
+HETATM   13  C   UNK  0001       0.486  -4.486  -1.375
+HETATM   14  C   UNK  0001       0.486  -2.070  -1.375
+HETATM   15  C   UNK  0001       0.023  -3.278   0.657
+HETATM   16  C   UNK  0001       0.174  -4.509  -0.008
+HETATM   17  C   UNK  0001       0.641  -3.278  -2.055
+HETATM   18  H   UNK  0001       0.623  -1.138  -1.920
+HETATM   19  H   UNK  0001      -0.242  -3.278   1.714
+HETATM   20  H   UNK  0001       0.889  -3.278  -3.113
+HETATM   21  H   UNK  0001       0.623  -5.418  -1.920
+HETATM   22  C   UNK  0001       0.009  -5.783   0.711
+HETATM   23  C   UNK  0001      -0.307  -8.223   2.088
+HETATM   24  C   UNK  0001      -0.886  -6.764   0.251
+HETATM   25  C   UNK  0001       0.741  -6.056   1.879
+HETATM   26  C   UNK  0001       0.585  -7.265   2.562
+HETATM   27  C   UNK  0001      -1.043  -7.973   0.933
+HETATM   28  H   UNK  0001      -1.479  -6.584  -0.643
+HETATM   29  H   UNK  0001       1.452  -5.325   2.260
+HETATM   30  H   UNK  0001       1.163  -7.457   3.462
+HETATM   31  H   UNK  0001      -1.744  -8.717   0.562
+HETATM   32  H   UNK  0001      -0.430  -9.163   2.619
+CONECT    1    2
+CONECT    2    1    5    4
+CONECT    3    6    7   11
+CONECT    4    7    2   12
+CONECT    5    2    6    8
+CONECT    6    5    3    9
+CONECT    7    3    4   10
+CONECT    8    5
+CONECT    9    6
+CONECT   10    7
+CONECT   11    3
+CONECT   12   15   14    4
+CONECT   13   16   17   21
+CONECT   14   17   12   18
+CONECT   15   12   16   19
+CONECT   16   15   13   22
+CONECT   17   13   14   20
+CONECT   18   14
+CONECT   19   15
+CONECT   20   17
+CONECT   21   13
+CONECT   22   25   24   16
+CONECT   23   26   27   32
+CONECT   24   27   22   28
+CONECT   25   22   26   29
+CONECT   26   25   23   30
+CONECT   27   23   24   31
+CONECT   28   24
+CONECT   29   25
+CONECT   30   26
+CONECT   31   27
+CONECT   32   23
+END
