@@ -30,7 +30,7 @@ Version 3.0.0, Build 2314.
 
 ### v4.0.0, 2023-12-05
 
-*Under constraction...*
+*Under construction...*
 
 ### v3.1.0, 2023-11-19
 *Thanks to [NotVinz](https://github.com/NotVinz) for contributions.*
