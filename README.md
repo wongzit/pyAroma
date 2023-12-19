@@ -28,46 +28,56 @@ Version 3.0.0, Build 2314.
 
 ## Update History
 
-### v4.0.0, 2023-12-05
+### v4.0.0, Build 3116.
 
-*Under construction...*
+1. Fixed the issue of HOMA interface not outputting results.
+2. Fixed the problem of overlapping of HOMA values or program crashing when calculating HOMA for large cyclic and spherical molecules.
+3. Ignored monocycles composed of more than 10 atoms.
+4. Fixed the issue that unable to read *Gaussian* input files with custom basis sets.
+5. Fixed the issue that unable to read .pdb files converted from .cif through *Mercury*.
+6. Added the functionality to generate INICS input files.
+7. Added the functionality to process INICS output files generated from INICS input files by **py.Aroma 4**.
+8. Added the functionality to calculate BLA values.
+9. Added the functionality to calculate NICS_ZZ for twisted/tilted rings and rings not in the XY plane.
+10. Fixed the element symbol error: Ym → Tm.
+11. Integrated the functionality of [*py.NMR*](https://github.io/wongzit/pyNMR).
+12. Added some pop-up infomations.
 
-### v3.1.0, 2023-11-19
-*Thanks to [NotVinz](https://github.com/NotVinz) for contributions.*
+### v3.1.0, Build 3100.
 1. Now the program can recognize chordless monocycles.
 2. Improved reliability for adding ghost atoms for distorted cycles.
 
-### v3.0.0, 2023-04-02
-0. Fully re-wrote code.
-1. Added BLA, HOMA and POAV functions.
-2. Combined [*CSIgen*](https://github.com/wongzit/CSIgen) module.
-3. Improved GUI by PyQt6.
-4. Added more function for 2D and 3D NICS analyses.
+### v3.0.0, Build 2314.
+1. Fully re-wrote code with all new GUI, powered by PyQt6.
+2. Added BLA, HOMA and POAV functions.
+3. Combined [*CSIgen*](https://github.com/wongzit/CSIgen) module.
+4. Added more functions for 2D and 3D NICS analyses.
 5. Added 1D NICS scan function.
 6. In 3D NICS module, user can also access 2D NICS module.
 
-### v2.1.0, 2023-01-14
-1. Bug fix.
+### v2.1.0, Build 2026.
+1. Fixed the issue of scientific notation of Cartesian coordinates in *Gaussian* input files.
 
-### v2.0.1, 2022-08-04
-1. Fixed the error: scientific notation of coordinates in input files.
+### v2.0.1, Build 1516.
+1. Fixed a minor bug.
 
-### v2.0, 2022-07-29
-1. BIG UPDATE: Now GUI is available for py.**Aroma**.
-2. Removed HOMA calculation function.
-3. Improved sufficiency of 2D-NICS ptting.
-4. The user manual in this repo is for old version (v 1.x), please refer to [here](https://wongzit.github.io/program/pyaroma/) to find the user manual for new version.
+### v2.0.0, Build 1510.
+1. A new graphical user interface (GUI) is available for **py.Aroma**.
+2. HOMA calculation function was removed.
+3. Improved sufficiency of 2D-NICS plotting.
 
-### v1.0, 2021-08-29
+### v1.0.0, Build 410.
 1. Improved stability.
 2. Typos are fixed in main program.
-3. Running test has been finished on 7 platform.
+3. Perfoming test has been carried on seven platforms.
 
-### v0.6 Pre-release, 2021-08-28
-HOMA calculation module has been added into main program. Please refer to [*HOMAcalc*](https://github.com/wongzit/HOMAcalc) for user manual now.
+### v0.6.0, Build 409b.
+1. [*HOMAcalc*](https://github.com/wongzit/HOMAcalc) module has been added into main program for HOMA calculation.
+2. *This version is a beta release.*
 
-### v0.3 Pre-release, 2021-08-28
-First release of *PyAroma*. The user manual is under preparing, for now please refer to the user manual of [*ICSSgen*](https://github.com/wongzit/ICSSgen), [*ICSScsv*](https://github.com/wongzit/ICSScsv), [*ICSSgen3D*](https://github.com/wongzit/ICSSgen3D), [*ICSScub3D*](https://github.com/wongzit/ICSScub3D) and [*NICSgen*](https://github.com/wongzit/NICSgen).
+### v0.3.0, Build 408b.
+1. The basic functions of [*ICSSgen*](https://github.com/wongzit/ICSSgen), [*ICSScsv*](https://github.com/wongzit/ICSScsv), [*ICSSgen3D*](https://github.com/wongzit/ICSSgen3D), [*ICSScub3D*](https://github.com/wongzit/ICSScub3D) and [*NICSgen*](https://github.com/wongzit/NICSgen) are combined to **py.Aroma**. 
+2. *This version is a beta release.*
 
 ## Citation
 
