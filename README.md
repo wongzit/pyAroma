@@ -40,7 +40,7 @@ Version 3.0.0, Build 2314.
 8. Added the functionality to calculate BLA values.
 9. Added the functionality to calculate NICS_ZZ for twisted/tilted rings and rings not in the XY plane.
 10. Fixed the element symbol error: Ym → Tm.
-11. Integrated the functionality of [*py.NMR*](https://github.io/wongzit/pyNMR).
+11. Integrated the functionality of [*py.NMR*](https://github.com/wongzit/pyNMR).
 12. Added some pop-up infomations.
 
 ### v3.1.0, Build 3100.
