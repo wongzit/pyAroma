@@ -14,6 +14,10 @@ be put at same dictionary as `pyAroma_main.py` file.
 
 ## Download
 
+Version 4.1.0, Build 3322.
+- [macOS](https://drive.google.com/file/d/1CAOKq9ECJ9PZpHcZiF87uvqE3rWmIgmO/view?usp=sharing)
+- [Windows]()
+
 Version 4.0.0, Build 3116.
 - [macOS](https://drive.google.com/file/d/1dysLAgXqhUs0A0XIZUC9nrdccMttKVvq/view?usp=share_link)
 - [Windows](https://1drv.ms/u/s!AoEiFHul9zVelka3VXvyChM_8OdJ?e=JzRVEs)
@@ -27,6 +31,13 @@ Version 3.0.0, Build 2314.
 - [Linux](https://drive.google.com/drive/folders/12ukrOltMulc7Kz6ZV9--I7g9PDn8UeFL?usp=share_link)
 
 ## Update History
+
+### v4.1.0, Build 3322.
+
+1. Added the functionality to calculate HOMER index.
+2. Added HOMA parameters for B-B, B-C and N-S bonds.
+3. Change the naming of "NICS scan" to "NICS-XY-Scan".
+4. Added Appendix V and VI in user manual.
 
 ### v4.0.0, Build 3116.
 
